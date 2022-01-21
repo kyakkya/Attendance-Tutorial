@@ -1,14 +1,15 @@
-// Place all the styles related to the Users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 /* ユーザー情報テーブル */
-
-
 
 .user-table {
   vertical-align: middle;
   text-align: center;
+}
+
+/* ユーザー情報下ボタン */
+
+.btn-users-show {
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 /* ユーザー勤怠情報テーブル */
@@ -19,8 +20,8 @@
     text-align: center;
   }
   td {
-   vertical-align: middle;
-   text-align: center;
+    vertical-align: middle;
+    text-align: center;
   }
 }
 
